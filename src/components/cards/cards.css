@@ -7,6 +7,9 @@
   width: 400px;
   border-radius: 30px;
 }
+.cards {
+  padding-top: 20px;
+}
 .card {
   background: #fff;
   border-radius: 10px;
@@ -26,6 +29,9 @@
   gap: 1rem;
   font-size: 12px;
   font-weight: 500;
+}
+.btns div {
+  cursor: pointer;
 }
 .first_btn {
   background: #dcf9f9;
@@ -51,6 +57,7 @@
   width: 100px;
 }
 .button {
+  cursor: pointer;
   width: fit-content;
   padding: 10px 20px;
   background: #ebeff4;
