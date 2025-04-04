@@ -1,8 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import icon from "./assets/images/logo.svg";
-import Cards from "./components/card.js";
-import "./style.css";
+import Cards from "./components/card/card.js";
+import Navbar from "./components/navbar/navbar.js";
 
 const base = [
   {
@@ -53,7 +52,7 @@ const base = [
   {
     cardTitle: "Годовой отчет по итогам 2023 года (17.05.2024)",
     cardVolume: "PDF, 440 Kb",
-    download: true,
+    download: false,
   },
   {
     cardTitle: "Годовой отчет по итогам 2023 года (17.05.2024)",
@@ -68,12 +67,12 @@ const base = [
   {
     cardTitle: "Годовой отчет по итогам 2023 года (17.05.2024)",
     cardVolume: "PDF, 440 Kb",
-    download: true,
+    download: false,
   },
   {
     cardTitle: "Годовой отчет по итогам 2023 года (17.05.2024)",
     cardVolume: "PDF, 440 Kb",
-    download: true,
+    download: false,
   },
   {
     cardTitle: "Годовой отчет по итогам 2023 года (17.05.2024)",
@@ -91,6 +90,7 @@ const Home = () => {
   return (
     <React.Fragment>
       <Navbar />
+      <h2 style={{margin: '20px auto', width: '1200px', fontSize: '40px', fontWeight: '500'}}>Отчеты</h2>
       <div className="container cards">
         {base.map((card) => {
           return <Cards {...card} id={card.id} />;
@@ -100,40 +100,6 @@ const Home = () => {
   );
 };
 
-const Navbar = () => {
-  return (
-    <div>
-      <div className="container box">
-        <div className="left_part">
-          <a href="#">
-            <img src={icon} alt="HamkorBank" />
-          </a>
-          <div className="pages">
-            <a href="#">Кредиты</a>
-            <a href="#">Карты</a>
-            <a href="#">Микрозаймы</a>
-            <a href="#">Вклады</a>
-            <a href="#">Курс валют</a>
-            <a href="#">Еще</a>
-          </div>
-        </div>
-        <div className="right_part">
-          <div className="money">
-            ${" "}
-            <div className="first">
-              <span>Купить</span> 12 860
-            </div>
-            <div className="second">
-              {" "}
-              <span>Продать</span> 12 970
-            </div>
-          </div>
-          <div className="btn">Интернет-банк</div>
-        </div>
-      </div>
-    </div>
-  );
-};
 
 const rootElement = document.getElementById("root");
 const root = ReactDOM.createRoot(rootElement);
