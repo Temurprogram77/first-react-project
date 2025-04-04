@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import "./cards.css";
 
 function Cards() {
   return (
-    <div>
-      {/* <h2>dasdas</h2> */}
+    <div className="container">
+      <div className="card"></div>
     </div>
-  )
+  );
 }
 
-export default Cards
+export default Cards;
