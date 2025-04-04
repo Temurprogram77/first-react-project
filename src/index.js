@@ -1,10 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import Cards from './components/cards/cards.jsx'
+import Navbar from './components/navbar/navbar.jsx'
 
 const Home = () => {
   return (
     <div>
-      <h2>salom</h2>
+      <Cards />
+      <Navbar />
     </div>
   )
 }
