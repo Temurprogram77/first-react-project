@@ -5,7 +5,44 @@ import "./style.css"
 
 const base = [
   {
-    
+    cardTitle: "Отчет за II квартал 2024 года",
+    cardVolume: "PDF, 440 Kb",
+    download: true,
+  },
+  {
+    cardTitle: "Годовой отчет по итогам 2023 года (17.05.2024)",
+    cardVolume: "PDF, 895 Kb",
+    download: true,
+  },
+  {
+    cardTitle: "Отчет за I квартал 2024 года",
+    cardVolume: "PDF, 399 Kb",
+    download: true,
+  },
+  {
+    cardTitle: "Годовой отчет по итогам 2023 года (17.05.2024)",
+    cardVolume: "PDF, 440 Kb",
+    download: true,
+  },
+  {
+    cardTitle: "Годовой отчет по итогам 2023 года (17.05.2024)",
+    cardVolume: "PDF, 440 Kb",
+    download: true,
+  },
+  {
+    cardTitle: "Годовой отчет по итогам 2023 года (17.05.2024)",
+    cardVolume: "PDF, 440 Kb",
+    download: true,
+  },
+  {
+    cardTitle: "Годовой отчет по итогам 2023 года (17.05.2024)",
+    cardVolume: "PDF, 440 Kb",
+    download: true,
+  },
+  {
+    cardTitle: "Годовой отчет по итогам 2023 года (17.05.2024)",
+    cardVolume: "PDF, 440 Kb",
+    download: true,
   },
 ];
 
