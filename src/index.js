@@ -91,7 +91,11 @@ const Home = () => {
   return (
     <React.Fragment>
       <Navbar />
-      <Cards />
+      <div>
+        {base.map((card) => {
+          return <Cards props={card} id={card.id} />;
+        })}
+      </div>
     </React.Fragment>
   );
 };
