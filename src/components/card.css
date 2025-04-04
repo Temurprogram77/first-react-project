@@ -28,7 +28,7 @@
 }
 .flex-div {
   display: flex;
-  gap: 147px;
+  gap: 145px;
   align-items: center;
   /* justify-content: center; */
 }
