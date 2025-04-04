@@ -6,8 +6,7 @@ import Navbar from './components/navbar/navbar.jsx'
 const Home = () => {
   return (
     <div>
-      <Navbar />
-      <Cards />
+      
     </div>
   )
 }
