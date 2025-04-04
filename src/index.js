@@ -3,7 +3,11 @@ import ReactDOM from "react-dom/client";
 import icon from "./assets/images/logo.svg";
 import "./style.css"
 
-const base = [{}];
+const base = [
+  {
+    
+  },
+];
 
 const Home = () => {
   return <Navbar />;
