@@ -15,6 +15,11 @@
   display: flex;
   justify-content: space-between;
 }
+.left_party {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
 .btns {
   display: flex;
   align-items: center;
@@ -27,7 +32,8 @@
   padding: 5px 15px;
   border-radius: 10px;
 }
-.second_btn, .third_btn {
+.second_btn,
+.third_btn {
   background: #dceff9;
   padding: 5px 10px;
   border-radius: 10px;
