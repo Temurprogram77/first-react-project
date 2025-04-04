@@ -9,8 +9,8 @@ function Cards() {
         <div className="left_party">
           <div className="btns">
             <div className="first_btn">Для путешествий</div>
-            <div className="first_btn">USD</div>
-            <div className="first_btn">EUR</div>
+            <div className="second_btn">USD</div>
+            <div className="third_btn">EUR</div>
           </div>
           <h2>Visa Classic</h2>
           <div className="writing"></div>

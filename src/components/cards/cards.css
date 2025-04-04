@@ -4,9 +4,24 @@
   box-sizing: border-box;
 }
 .right_party img {
-  width: 300px;
+  width: 400px;
+  border-radius: 30px;
 }
 .card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
+}
+.btns {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.first_btn {
+  background: #dcf9f9;
+  padding: 2px 8px;
+  border-radius: 10px;
 }
