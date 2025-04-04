@@ -8,7 +8,7 @@ const Card = (props) => {
       <FaRegFileAlt size={24} color="black" />
       <h4 className="title">{props.cardTitle}</h4>
       <div className="flex-div">
-        <p>PDF, 440 Kb</p>
+        <p>{props.cardVolume}</p>
         <div className="icon">x</div>
       </div>
     </div>

@@ -91,7 +91,7 @@ const Home = () => {
   return (
     <React.Fragment>
       <Navbar />
-      <div>
+      <div className="container cards">
         {base.map((card) => {
           return <Cards {...card} id={card.id} />;
         })}
