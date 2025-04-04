@@ -6,7 +6,9 @@ function Navbar() {
   return (
     <div className="container box">
       <div className="left_part">
-        <img src={icon} alt="HamkorBank" />
+        <a href="#">
+          <img src={icon} alt="HamkorBank" />
+        </a>
         <div className="pages">
           <a href="#">Кредиты</a>
           <a href="#">Карты</a>

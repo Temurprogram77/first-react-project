@@ -85,7 +85,7 @@ a:hover::before {
   color: #fff;
 }
 .btn:active {
-    background: #179349;
+  background: #179349;
 }
 .right_part {
   display: flex;
