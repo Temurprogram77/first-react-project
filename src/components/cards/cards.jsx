@@ -17,7 +17,7 @@ function Cards() {
           <div className="button">Подробнее</div>
         </div>
         <div className="right_part">
-          <img src={card} alt="" />
+          <img src={card} alt="Visa card" />
         </div>
       </div>
     </div>

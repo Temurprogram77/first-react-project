@@ -18,6 +18,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.box {
   height: 70px;
 }
 .left_part {

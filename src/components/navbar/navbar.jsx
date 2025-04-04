@@ -4,7 +4,7 @@ import "./navbar.css";
 
 function Navbar() {
   return (
-    <div className="container">
+    <div className="container box">
       <div className="left_part">
         <img src={icon} alt="HamkorBank" />
         <div className="pages">
