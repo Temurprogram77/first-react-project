@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .container {
   max-width: 1200px;
@@ -18,8 +19,9 @@
 .money {
   display: flex;
   align-items: center;
+  gap: 10px;
 }
-.first {
+.first, .second {
   display: flex;
   flex-direction: column;
 }
