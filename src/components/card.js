@@ -1,6 +1,6 @@
 import React from "react";
 import "./card.css";
-import { FaRegFileAlt, FaCheck } from "react-icons/fa";
+import { FaRegFileAlt, FaCheck, FaTimes } from "react-icons/fa";
 
 const Card = (props) => {
   return (
@@ -9,7 +9,7 @@ const Card = (props) => {
       <h4 className="title">{props.cardTitle}</h4>
       <div className="flex-div">
         <p>{props.cardVolume}</p>
-        <div className="icon">{props.download===true?<FaCheck color="green" />:'⤫'}</div>
+        <div className="icon">{props.download===true?<FaCheck color="green" />: <FaTimes color="red" />}</div>
       </div>
     </div>
   );
