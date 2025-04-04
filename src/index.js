@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import icon from "./assets/images/logo.svg";
-import { FaRegFileAlt } from "react-icons/fa";
-import "./style.css"
+import Cards from "./components/card.js";
+import "./style.css";
 
 const base = [
   {
@@ -88,7 +88,12 @@ const base = [
 ];
 
 const Home = () => {
-  return <Navbar />;
+  return (
+    <React.Fragment>
+      <Navbar />
+      <Cards />
+    </React.Fragment>
+  );
 };
 
 const Navbar = () => {
