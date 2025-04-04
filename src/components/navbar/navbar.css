@@ -9,6 +9,9 @@ a {
   color: #303030;
   font-weight: 600;
 }
+body {
+  background: #f0f2f5;
+}
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -23,9 +26,28 @@ a {
   justify-content: center;
   gap: 50px;
 }
-.left_part a:hover {
-    
+a {
+  position: relative;
+  color: black;
+  text-decoration: none;
+  padding-bottom: 4px;
 }
+
+a::before {
+  content: "";
+  position: absolute;
+  bottom: -7px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #1cca59;
+  transition: width 0.3s ease;
+}
+
+a:hover::before {
+  width: 100%;
+}
+
 .pages {
   display: flex;
   gap: 2rem;
@@ -48,11 +70,11 @@ a {
   flex-direction: column;
 }
 .btn {
-  background: #1cca59;
-  color: white;
+  background: #fff;
+  color: black;
   padding: 10px 20px;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
 }
 .right_part {
