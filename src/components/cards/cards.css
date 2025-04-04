@@ -18,7 +18,7 @@
 .left_party {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
 }
 .btns {
   display: flex;
@@ -37,4 +37,23 @@
   background: #dceff9;
   padding: 5px 10px;
   border-radius: 10px;
+}
+.writing {
+  display: flex;
+  align-items: start;
+  gap: 5rem;
+  font-size: 10px;
+}
+.writing h3 {
+  font-size: 15px;
+}
+.two p {
+  width: 100px;
+}
+.button {
+  width: fit-content;
+  padding: 10px 20px;
+  background: #ebeff4;
+  border-radius: 10px;
+  font-size: 15px;
 }
