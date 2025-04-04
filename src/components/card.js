@@ -8,7 +8,7 @@ const Card = (props) => {
       <div className="container cards">
         <div className="card">
           <FaRegFileAlt size={24} color="black" />
-          <h4 className="title">Отчет за II квартал 2024 года</h4>
+          <h4 className="title">{props.cardTitle}</h4>
           <div className="flex-div">
             <p>PDF, 440 Kb</p>
             <div className="icon">x</div>

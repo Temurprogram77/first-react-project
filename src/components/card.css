@@ -16,6 +16,7 @@
   height: 50px;
   font-size: 15px;
   font-weight: 500;
+  width: 230px;
 }
 .flex-div {
   display: flex;
