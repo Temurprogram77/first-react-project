@@ -47,3 +47,8 @@
   border-radius: 5px;
   cursor: pointer;
 }
+.right_part {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
