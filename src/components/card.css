@@ -7,11 +7,24 @@
   background: #fff;
   border-radius: 10px;
   padding: 25px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.title {
+  height: 50px;
+  font-size: 15px;
+  font-weight: 500;
 }
 .flex-div {
-  margin-top: 40px;
   display: flex;
   gap: 150px;
   align-items: center;
   /* justify-content: center; */
+}
+.flex-div p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #a4a4a4;
 }
