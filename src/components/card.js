@@ -9,7 +9,7 @@ const Card = (props) => {
       <h4 className="title">{props.cardTitle}</h4>
       <div className="flex-div">
         <p>{props.cardVolume}</p>
-        <div className="icon">x</div>
+        <div className="icon">{props.download===true?'✓':'⤫'}</div>
       </div>
     </div>
   );
