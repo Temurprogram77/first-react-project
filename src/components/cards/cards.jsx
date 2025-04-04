@@ -6,7 +6,7 @@ function Cards() {
   return (
     <div className="container">
       <div className="card">
-        <div className="left_part">
+        <div className="left_party">
           <div className="btns">
             <div className="first_btn">Для путешествий</div>
             <div className="first_btn">USD</div>
@@ -16,7 +16,7 @@ function Cards() {
           <div className="writing"></div>
           <div className="button">Подробнее</div>
         </div>
-        <div className="right_part">
+        <div className="right_party">
           <img src={card} alt="Visa card" />
         </div>
       </div>

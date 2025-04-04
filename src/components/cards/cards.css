@@ -7,6 +7,6 @@
   width: 300px;
 }
 .card {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
