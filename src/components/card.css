@@ -6,6 +6,7 @@
   width: fit-content;
 }
 .card {
+  cursor: pointer;
   background: #fff;
   border-radius: 10px;
   padding: 25px;
@@ -13,6 +14,11 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  scale: 1;
+  transition: scale 0.3s;
+}
+.card:hover {
+  scale: 1.02;
 }
 .title {
   height: 50px;
@@ -22,7 +28,7 @@
 }
 .flex-div {
   display: flex;
-  gap: 150px;
+  gap: 147px;
   align-items: center;
   /* justify-content: center; */
 }
