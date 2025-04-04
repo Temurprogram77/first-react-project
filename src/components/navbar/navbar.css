@@ -55,6 +55,7 @@ a:hover::before {
   gap: 2rem;
 }
 .money {
+  cursor: pointer;
   background: #e5eaf0;
   padding: 3px 15px;
   display: flex;
