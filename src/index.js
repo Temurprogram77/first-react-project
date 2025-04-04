@@ -17,17 +17,17 @@ const base = [
   {
     cardTitle: "Отчет за I квартал 2024 года",
     cardVolume: "PDF, 399 Kb",
+    download: false,
+  },
+  {
+    cardTitle: "Отчет за III квартал 2023 года",
+    cardVolume: "PDF, 425 Kb",
     download: true,
   },
   {
-    cardTitle: "Годовой отчет по итогам 2023 года (17.05.2024)",
+    cardTitle: "Отчет за II квартал 2023 года",
     cardVolume: "PDF, 440 Kb",
-    download: true,
-  },
-  {
-    cardTitle: "Годовой отчет по итогам 2023 года (17.05.2024)",
-    cardVolume: "PDF, 440 Kb",
-    download: true,
+    download: false,
   },
   {
     cardTitle: "Годовой отчет по итогам 2023 года (17.05.2024)",
