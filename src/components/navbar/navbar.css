@@ -10,7 +10,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 60px;
+  height: 70px;
 }
 .left_part {
   display: flex;
@@ -23,12 +23,27 @@
   gap: 2rem;
 }
 .money {
+  background: #e5eaf0;
+  padding: 3px 15px;
   display: flex;
   align-items: center;
-  gap: 10px;
+  border-radius: 10px;
+  gap: 15px;
+}
+.money span {
+  font-size: 10px;
+  color: #7f7f7f;
 }
 .first,
 .second {
   display: flex;
   flex-direction: column;
+}
+.btn {
+  background: #1cca59;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }

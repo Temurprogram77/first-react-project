@@ -18,9 +18,16 @@ function Navbar() {
       </div>
       <div className="right_part">
         <div className="money">
-          $ <div className="first"><span>Купить</span> 12 860</div>
-          <div className="second"> <span>Продать</span> 12 970</div>
+          ${" "}
+          <div className="first">
+            <span>Купить</span> 12 860
+          </div>
+          <div className="second">
+            {" "}
+            <span>Продать</span> 12 970
+          </div>
         </div>
+        <div className="btn">Интернет-банк</div>
       </div>
     </div>
   );
