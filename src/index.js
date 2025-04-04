@@ -9,5 +9,8 @@ const Home = () => {
   )
 }
 
-const root = ReactDOM.createRoot
-export default Home
+
+const rootElement = document.getElementById('root')
+const root = ReactDOM.createRoot(rootElement)
+
+root.render(<Home />)
