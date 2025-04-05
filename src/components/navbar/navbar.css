@@ -28,14 +28,14 @@ body {
   justify-content: center;
   gap: 50px;
 }
-a {
+.pages a {
   position: relative;
   color: black;
   text-decoration: none;
   padding-bottom: 4px;
 }
 
-a::before {
+.pages a::before {
   content: "";
   position: absolute;
   bottom: -7px;
@@ -46,7 +46,7 @@ a::before {
   transition: width 0.3s ease;
 }
 
-a:hover::before {
+.pages a:hover::before {
   width: 100%;
 }
 
