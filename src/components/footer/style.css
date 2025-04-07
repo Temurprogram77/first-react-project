@@ -51,7 +51,18 @@
   font-size: 13px;
 }
 .wrt {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.btns_main {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 7rem;
+}
+.iconss {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }

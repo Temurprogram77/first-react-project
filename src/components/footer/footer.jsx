@@ -44,10 +44,12 @@ const Footer = () => {
           </div>
           <div className="btns_main">
             <div className="send_button">Сообщить о коррупции</div>
-            <FaFacebook />
-            <FaInstagram />
-            <FaYoutube />
-            <FaTelegram />
+            <div className="iconss">
+              <FaFacebook />
+              <FaInstagram />
+              <FaYoutube />
+              <FaTelegram />
+            </div>
           </div>
         </div>
       </div>
