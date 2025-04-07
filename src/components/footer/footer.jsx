@@ -1,10 +1,11 @@
 import React from "react";
 import appBank from "../../assets/images/mobile_app.svg";
 import { FaFacebook, FaInstagram, FaYoutube, FaTelegram } from "react-icons/fa";
+import "./style.css";
 
 const Footer = () => {
   return (
-    <div>
+    <div className="container">
       <div className="footer">
         <div className="main">
           <div className="writing">
