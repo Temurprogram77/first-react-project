@@ -35,7 +35,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="bank">
-              <img src={appBank} alt="" />
+              <img src={appBank} alt="img" />
               <div className="wrt">
                 <h3>Мобильный банк</h3>
                 <p>Приложение для Android и iOS</p>
