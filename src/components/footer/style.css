@@ -66,3 +66,6 @@
   align-items: center;
   gap: 1rem;
 }
+.ico {
+  cursor: pointer;
+}
