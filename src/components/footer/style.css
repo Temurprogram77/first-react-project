@@ -68,4 +68,24 @@
 }
 .ico {
   cursor: pointer;
+  color: #5d5d5d;
+  width: 20px;
+  height: 20px;
+}
+.send_button {
+  background: #f6f6f6;
+  color: #000000;
+  font-weight: 500;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s all;
+}
+.send_button:hover {
+  background: #1cca59;
+  color: #fff;
+}
+.ico:hover {
+  color: #1cca59;
 }
