@@ -1,9 +1,13 @@
 .big_container {
-    margin-top: 30px;
-    padding: 30px 0;
-    background: #dce2eb;
+  margin-top: 30px;
+  padding: 30px 0;
+  background: #dce2eb;
+}
+.footer {
+  width: 100%;
 }
 .main {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -11,9 +15,32 @@
 .writing {
   display: flex;
   justify-content: space-between;
-  gap: 2rem;
+  gap: 4rem;
+}
+.writing h2 {
+  cursor: pointer;
+  font-size: 20px;
+}
+.writing div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.writing h4 {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 15px;
+  transition: 0.1s color;
+}
+.writing h4:hover {
+  color: #1cca59;
+}
+.writing p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #6f6e6e;
 }
 .bank img {
-    width: 60px;
-    border-radius: 15px;
+  width: 60px;
+  border-radius: 15px;
 }
