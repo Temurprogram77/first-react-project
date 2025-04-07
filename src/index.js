@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import Cards from "./components/card/card.js";
 import Navbar from "./components/navbar/navbar.js";
-import Footer from "./components/footer/footer.js";
+import Footer from "./components/footer/footer.jsx";
 
 const base = [
   {
